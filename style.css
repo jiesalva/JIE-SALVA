@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #4f4f4f; 
+    color: white;
+    line-height: 1.6;
+  
+}
+
+.header {
+    background-color: #ffc0cb; 
+    color: black;
+    padding: 50px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5em;
+}
+.spam{
+    color: aqua;
+    font-family: fantasy;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #4f4f4f; /* Dark grey article background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gg {
+    display: flex;
+    align-items: center;
+}
+
+.gg .content {
+    flex: 1;
+}
+
+.gg h1 {
+    font-size: 5.5em;
+    margin-bottom: 10px;
+}
+
+.gg p {
+    font-size: 2em;
+    line-height: 1.6;
+}
+
+.gg .image-container {
+    margin: auto;
+    margin-right: 400px;
+    width: 400px;
+}
+
+.gg img {
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hays{
+    display: flex;
+}
+
+
+.buttons {
+    
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+.button:hover {
+    background-color:pink;
+    color: #ffc0cb; 
+}
+.back{
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: 4%;
+    margin-left: 4%;
+}

@@ -1,0 +1,157 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:pink;
+}
+.header {
+    background-color: #ffc0cb; 
+    color: black;
+    padding: 50px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5em;
+}
+
+.upClick{
+    position: absolute;
+    margin: 20px;
+    margin-top: 1%;
+    margin-left: -53.9%;
+    padding: 10px;
+}
+
+.sectionOne, .sectionTwo {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.upClass {
+    text-align: center;
+    
+}
+
+.upClass h1 {
+    color: #333;
+}
+
+.upClass p {
+    color: #666;
+}
+
+.upClass button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.dwnClass {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dwnClass h1 {
+    color: #333;
+}
+
+.dwnClass img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.dwnClass p {
+    color: #666;
+}
+
+.dwnClass button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.profOne, .profTwo, .profThr, .profFou {
+    margin-top: 20px;
+}
+
+.profOne img, .profTwo img, .profThr img, .profFou img {
+    max-width: 100%;
+    height: auto;
+}
+
+.MyDiv1{
+    margin: 15px;
+}
+
+.MyDiv2{
+    display: flex;
+}
+
+.H1{
+    margin-top: 100px;
+    margin-left: -43%;
+}
+
+.p1{
+    margin-top: 1%;
+    margin-left: -40%;
+    
+}
+
+.imgOne1{
+    margin-top: -11.5%;
+    margin-left: 350px;
+}
+.img1{
+    height: 100%;
+}
+.img2{
+    width: 320px;
+}
+.img3{
+    width: 320px;
+}
+
+
+.back{
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: 4%;
+    margin-left: 4%;
+}
